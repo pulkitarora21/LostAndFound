@@ -2,7 +2,7 @@
 
 This is a simple lost and found website we built dating back to
 school-days. We created the MVC pattern from scratch. Due to the
-limited time, the code quality is not so good(no factoring and
+limited time, the code quality is not so good(no refactoring and
 patterns involved).
 
 ## Functionalities
