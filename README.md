@@ -11,7 +11,7 @@ patterns involved).
 
 2. View Lost or Found items.
 
-3. Post Lost for Found items.
+3. Post Lost or Found items.
 
 4. GoogleMaps.
 
@@ -25,8 +25,8 @@ patterns involved).
 
 9. Admin Function - Display All Users, edit user's details and block/unblock user.
 
-10. Item Page - Login user is able to contact the person who found a matching item, also marking this case closed.
+10. Item Page - Login user is able to contact the person who found a matching item, also mark this case closed.
 
 11. Social Media Sharing Functions.
 
-12. Automated email generation - Send email to users containing info of matching found items automatically (background work).
+12. Automated Email Generation - Send email to users containing info of matching found items automatically (background work).
