@@ -1,0 +1,387 @@
+@CHARSET "UTF-8";
+
+/* General form classes and id*/
+.formHeader {
+	margin-left: 10px;
+	padding: 0px 10px 10px 10px;
+	background-color: #007ebf;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-topleft: 7px;
+	border: 1px solid #035484;
+	height: 30px;
+}
+
+.formHeader h1 {
+	color: #fff;
+	font-size: 13pt;
+}
+
+.formSeperator {
+	margin: 0px 10px 20px 20px;
+	border-bottom: 1px #C1D9F0 dashed;
+}
+
+.wrapper2 {
+	margin: 0px 10px 10px 20px;
+}
+
+.inputDiv {
+	width: 720px;
+    margin: 2px 0 20px 10px;
+}
+
+.field {
+    font-size: 13px;
+    padding: 2px;
+    border: solid 1px #aacfe4;
+    width: 200px;
+    margin: 2px 10px 10px 20px
+}
+
+.date {
+    font-size: 13px;
+    padding: 2px;
+    border: solid 1px #aacfe4;
+    width:76.5px;
+    margin: 2px 10px 10px 20px
+}
+
+.required {
+	color: red;
+}
+
+span.error {
+    font-size: 12.5px;
+    text-align: left;
+    color: red;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+span.error0 {
+    font-size: 12.5px;
+    text-align: left;
+    color: red;
+    margin-top: 4px;
+    font-weight: bold;
+    position:relative;
+	bottom:100px;
+}
+
+#search {
+	width: 750px;
+	margin-left: 10px;
+   border: 1px solid;
+   border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+   background-color: #f0f8ff;
+}
+
+.searchStyle {
+   clear: both;
+   width: 750px;
+   font-size: 14px;
+   color: #666666;
+}
+
+.searchStyle td img {
+	top: 50%;
+	left: 20%;
+	position: relative;
+}
+
+#search a {
+    text-decoration: none;
+    color: #000;
+}
+
+#search table tr th {
+    color: #000;
+    font-size: 15px;
+}
+
+#search table tr,th,td {
+	vertical-align: top;
+}
+
+#search a:hover {
+    color: #666666;
+}
+
+#search b {
+    color: #000;
+}
+
+#search img {
+	width:100px;
+	height:100px;
+}
+
+#itemDetail {
+
+	padding: 20px 20px 30px 20px;
+	margin-right: 17px;
+	background-color:#fff;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-topleft: 7px;
+	border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+   border: 1px #C1D9F0 dashed;
+}
+
+#itemDetail2 {
+	width: 350px;
+	padding: 20px 20px 30px 20px;
+	margin-left: 17px;
+	background-color:#fff;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-topleft: 7px;
+	border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+   border: 1px #C1D9F0 dashed;
+}
+
+#items {
+	width: 750px;
+	margin-left: 10px;
+   border: 1px solid;
+   border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+   background-color: #f0f8ff;
+}
+
+.item {
+	width: 750px;
+	margin-left: 10px;
+   border: 1px solid;
+   border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+   background-color: #f0f8ff;
+}
+
+.itemsStyle {
+   clear: both;
+   width: 750px;
+   font-size: 14px;
+   color: #666666;
+}
+
+#items a {
+    text-decoration: none;
+    color: #000;
+}
+
+#items table tr th {
+    color: #000;
+    font-size: 15px;
+}
+
+#items table tr,th,td {
+	vertical-align: top;
+}
+
+#items a:hover {
+    color: #666666;
+}
+
+#items b {
+    color: #000;
+}
+
+#items img {
+	height:100px;
+  	width:100px;
+}
+
+#btn {
+	text-align: center;
+}
+
+#notFound {
+	padding-left:20px;
+	width: 730px;
+	margin-left: 10px;
+   border: 1px solid;
+   border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+   background-color: #f0f8ff;
+}
+
+/* Register form id */
+#register {
+   width: 750px;
+   margin-left: 10px;
+   padding-top: 10px;
+   background-color: #f0f8ff;
+   border: 1px solid;
+   border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+}
+
+#register p {
+   font-size: 13px;
+   color: #666666;
+}
+
+#register label {
+   display: block;
+   font-weight: bold;
+   text-align: right;
+   width: 136px;
+   float: left;
+   margin-top: 2px;
+}
+
+#register select {
+   font-size: 13px;
+   padding: 2px;
+   border: solid 1px #aacfe4;
+   width: 200px;
+   margin: 2px 10px 10px 20px;
+}
+
+#register input.error {
+   background: #f8dbdb;
+   border-color: #e77776;
+}
+
+#register textarea.error {
+   background: #f8dbdb;
+   border-color: #e77776;
+}
+
+#register .small {
+   color: blue;
+   display: block;
+   font-size: 12px;
+   font-weight: normal;
+   text-align: right;
+   width: 136px;
+   margin-bottom: 5px;
+}
+
+#register .button {
+	font-size: 11pt;
+	width: 70px;
+}
+
+#register .button:hover {
+	background: #75b2dd;
+}
+
+/* Login form id & classes */
+#login {
+   width: 31em;
+   margin:auto;
+   background: none;
+}
+
+#formbody {
+	background: #f0f8ff;
+   padding: 10px;
+   margin-left: 10px;
+   border: 1px solid #888;
+   border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+   width: 28em;
+   font-weight: bold;
+}
+
+#formbody a {
+	color: red;
+}
+
+#formbody input {
+	margin-bottom: 20px;
+}
+
+#loginError {
+   background: #FFEBE8 none repeat scroll 0;
+   border: 1px solid #DD3C10;
+   padding: 5px;
+   font-weight: bold;
+   margin: 5px 0px 5px 40px;
+}
+
+.put {
+   font-size: 13px;
+   padding: 2px;
+   border: solid 1px #aacfe4;
+   width: 260px;
+   margin-top: 2px;
+   margin-bottom: 10px;
+}
+
+#formbody .button {
+	font-size: 11pt;
+	width: 70px;
+}
+
+#formbody .button:hover {
+	background: #75b2dd;
+}
+
+/* Forgot Password Form*/
+#forget {
+   width: 31em;
+   margin:auto;
+   background: none;
+}
+
+#retrieveError {
+   background: #FFEBE8 none repeat scroll 0;
+   border: 1px solid #DD3C10;
+   padding: 5px;
+   font-weight: bold;
+   margin: 5px 0px 5px 50px;
+}
+
+#forget .put {
+	width: 200px;
+}
+
+/* Admin Table */
+#adminForm {
+	width: 920px;
+	margin-left: 10px;
+   border: 1px solid;
+   border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+   background-color: #f0f8ff;
+}
+
+#adminTable {
+	clear: both;
+   width: 920px;
+   font-size: 14px;
+   color: #666666;
+}
+
+#adminForm a {
+	color: #4682B4;
+}
+

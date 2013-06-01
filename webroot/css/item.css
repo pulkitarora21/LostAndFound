@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+#contactBtn {
+    background:url(../images/template/mail.png) no-repeat;
+    cursor:pointer;
+    width: 38px;
+    height: 36px;
+    border: none;
+}
+
+#contactSpan {
+	padding: 5px;
+	font-weight: 700;
+}
+
+#itemHeader {
+	margin-left: 10px;
+	padding: 0px 10px 10px 10px;
+	background-color: #007ebf;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	-moz-border-radius-topright: 7px;
+	-moz-border-radius-topleft: 7px;
+	border: 1px solid #035484;
+	height: 30px;
+	width: 740px;
+}
+
+#itemHeader h1 {
+	color: #fff;
+	font-size: 13pt;
+}
+
+#item {
+   width: 750px;
+   margin-left: 10px;
+   padding: 10px 0px 20px 10px;
+   background-color: #f0f8ff;
+   border: 1px solid;
+   border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   -moz-border-radius-bottomright: 7px;
+   -moz-border-radius-bottomleft: 7px;
+}
+
+#item #button {
+	margin: 0 10px;
+	padding: 2px 5px;
+	text-shadow: 5px 5px 5px #888;
+}
+
+#details {
+	padding-left: 10px;
+}
+
+#details .split {
+	box-sizing: border-box;
+	width: 50%;
+	float: left;
+	padding-bottom: 15px;
+}
+
+#imageDiv {
+	padding-left: 10px;
+	clear: both;
+}
+
+#imageDiv img {
+	border: none;
+	vertical-align:middle;
+  	width:300px;
+}
+
+#mapDiv {
+	padding-left: 10px;
+	position: relative;
+	height: 450px;
+}
+
+#mapArea {
+	border: none;
+	margin: 10px auto;
+	padding-bottom: 10px;
+	text-align: center;
+   top:50%;
+   left:50%;
+}
+
+#map a {
+	color: #6699ff;
+}
+
+.detailsCat {
+	font-weight: 700;
+}
+
+.itemSeperator {
+	clear: both;
+	margin: 10px 10px 10px 10px;
+	border-bottom: 1px #C1D9F0 dashed;
+}
